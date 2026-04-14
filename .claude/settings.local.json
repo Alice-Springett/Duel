@@ -14,7 +14,11 @@
       "Bash(curl --version)",
       "Bash(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh)",
       "Bash(bash)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(rm /Users/alice/Downloads/Duel/.git/index.lock)"
     ]
   }
 }
